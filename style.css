@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./imgs/floresta.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.pokebola {
+    width: 20%;
+}
+
+.painel {
+    width: 600px;
+    height: 570px;
+    background-color: tomato;
+    border: 5px solid brown;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 1.5rem;
+    box-shadow: 3px 3px 1rem black;
+}
+
+.frontal {
+    width: 45%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#tela {
+    width: 500px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: lightcoral;
+    background-image: url(./imgs/fundo.png);
+    background-size: cover;
+    border: 5px solid brown;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    animation: carregar 5s alternate;
+}
+
+/* @keyframes carregar {
+    0% {
+        height: 0;
+    }
+
+    100% { }
+} */
+
+h1 {
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+p, h2{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 250px;
+    margin: 5rem;
+}
+p{margin: auto;}
+
+h2{
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+#putText {
+    width: 70%;
+    height: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.rodape {
+    z-index: -1;
+}
+
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid rgb(206, 204, 204);
+    background-color: #272727;
+    box-shadow: 3px 3px 3px black;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(61, 60, 60);
+    position: relative;
+    top: 1.5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.search {
+    width: 40%;
+}
+
+.fundoText {
+    z-index: 0;
+}
+
+p, h2 {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+p {
+    margin: auto;
+}
