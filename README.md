@@ -1,1 +1,3 @@
-# Pokedex-
+# Pokédex-
+
+Procure um Pokémon
